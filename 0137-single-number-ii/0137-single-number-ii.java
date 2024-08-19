@@ -10,6 +10,10 @@ class Solution {
                         if(nums[i] == nums[j])
                         {
                             count++;
+                            if(count > 1)
+                            {
+                                break;
+                            }
                         }
             }
             if(count == 1)
