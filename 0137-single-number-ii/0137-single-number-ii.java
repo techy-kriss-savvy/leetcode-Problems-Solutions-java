@@ -2,7 +2,6 @@ class Solution {
     public int singleNumber(int[] nums)
     {
         int count = 0 , unique = 0;
-        Arrays.sort(nums);
         for(int  i = 0 ; i < nums.length ; i++)
         {
                  count = 0;
