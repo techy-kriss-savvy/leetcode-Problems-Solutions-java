@@ -20,6 +20,10 @@ class Solution {
             {
                 unique = nums[i];
             }
+            if( unique != 0)
+            {
+                break;
+            }
         }
         return unique;
     }
